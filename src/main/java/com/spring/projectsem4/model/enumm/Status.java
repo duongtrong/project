@@ -1,4 +1,4 @@
-package com.spring.projectsem4.model;
+package com.spring.projectsem4.model.enumm;
 
 public enum Status {
 

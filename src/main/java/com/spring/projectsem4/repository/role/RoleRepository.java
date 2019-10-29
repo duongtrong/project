@@ -1,7 +1,7 @@
 package com.spring.projectsem4.repository.role;
 
 import com.spring.projectsem4.model.Role;
-import com.spring.projectsem4.model.RoleName;
+import com.spring.projectsem4.model.enumm.RoleName;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

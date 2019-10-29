@@ -18,11 +18,21 @@ configurations {
 	}
 }
 
+jar {
+    baseName = 'com.spring.projectsem4'
+    version =  '0.1.0'
+}
+
 repositories {
 	mavenCentral()
 }
 
+bootJar.enabled = false
+jar.enabled = true
+
 dependencies {
+	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+	compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
 	// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
 	compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.4.Final'
 

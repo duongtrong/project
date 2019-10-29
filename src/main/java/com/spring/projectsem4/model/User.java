@@ -1,6 +1,7 @@
 package com.spring.projectsem4.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.spring.projectsem4.model.audit.DateAudit;
 import com.spring.projectsem4.util.annotation.EmailConstraint;
 import lombok.*;
 import org.hibernate.annotations.NaturalId;

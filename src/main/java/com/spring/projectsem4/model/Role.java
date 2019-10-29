@@ -1,5 +1,6 @@
 package com.spring.projectsem4.model;
 
+import com.spring.projectsem4.model.enumm.RoleName;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.NaturalId;

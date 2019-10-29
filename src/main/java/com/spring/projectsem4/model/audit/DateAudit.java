@@ -1,4 +1,4 @@
-package com.spring.projectsem4.model;
+package com.spring.projectsem4.model.audit;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.CreatedDate;
